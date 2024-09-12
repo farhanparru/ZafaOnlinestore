@@ -59,11 +59,12 @@ const Item = () => {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
-      width: "50%", // Adjust the width as needed
-      height: "80%", // Adjust the height as needed
+      width: "40%", // Adjust the width as needed
+      height: "60%",
     },
   };
 
+  
   const openExcelModal = () => setExcelModalIsOpen(true);
   const closeExcelModal = () => setExcelModalIsOpen(false);
 

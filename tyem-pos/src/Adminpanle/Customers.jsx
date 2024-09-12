@@ -22,7 +22,7 @@ const Customers = () => {
   const fetchCustomers = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8000/api/user/getCustomer"
+        "https://tyem.invenro.site/api/user/getCustomer"
       );
       setCustomers(response.data.customers); // Assuming response has `customers` array
     } catch (error) {
